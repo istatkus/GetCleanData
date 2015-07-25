@@ -2,6 +2,7 @@
 ## Set up the environment
 ## Class: Get and Clean Data 
 ## Objective take data from smartphone activity tracker and tidy it
+##
 ## Acknowledge
 ##[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 
 ##A Public Domain Dataset for Human Activity Recognition Using Smartphones. 
