@@ -18,11 +18,11 @@ library(reshape2)
 ##
 ## Step 1: Get the data by Downloading and unzipping
 
-myfile <- "getdata_dataset.zip"
+myfile <- "C:/Users/irene/Desktop/CourseraDS/GetCleanData/prj/getdata_dataset.zip"
 
 if ( !file.exists (myfile)){
-    fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-    download.file(fileURL, myfile, method="curl")
+    fileURL <- "http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+    download.file(fileURL, myfile)
     } 
 if ( !file.exists("UCI HAR Dataset")) { 
   unzip( myfile) 
